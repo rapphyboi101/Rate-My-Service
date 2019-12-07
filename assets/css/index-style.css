@@ -1,0 +1,108 @@
+
+html,body{
+	height: 100vh;
+	background-color: rgb(36,115,69);
+}
+
+body{
+	min-height:auto;
+
+}
+
+.form-container{
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	background-color: rgb(36,115,69);
+ 	background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200% 200%;
+    position: absolute;
+}
+
+.form-center{
+	color: white;
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+}
+
+.form-panel{
+	
+}
+
+.form-index{
+	text-align: center;
+}
+
+.drop-down{
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+	font-size: 24px;
+}
+
+
+/*---------FOR RATING VIEW-------------*/
+.header{
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+table{
+	margin-top: -30px;
+}
+
+td{
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
+.image-container{
+	cursor: pointer;
+	max-height: 120px;
+	max-width: 120px;
+	height: 120px;
+	width: 120px;
+
+}
+.image-container img{
+	width: 100%;
+    height: auto;
+}
+
+.text-container{
+	margin-left: 20px;
+	margin-right: 20px;
+	font-size: 20px;
+}
+
+#nameFont{
+    font-family: Futura, Trebuchet MS, Arial, sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    width: 100%;
+}
+
+#wideInput{
+	max-height: 140px;
+	width: 100%;
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.btn-container{
+	text-align: center;
+	margin-top: 20px;
+}
+
+input[type=image]{
+	width: 200px;
+	height: 55px;
+	max-width: 200px;
+	max-height: 55px;
+}
+
+label{
+	margin-top: 20px;
+}

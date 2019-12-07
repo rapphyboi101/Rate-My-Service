@@ -1,0 +1,39 @@
+
+html,body{
+	height: 100%;
+	background-color: rgb(36,115,69);
+}
+
+body{
+	min-height:auto;
+
+}
+
+p{
+	text-align: center;
+	color: white;
+	font-family: Futura, Trebuchet MS, Arial, sans-serif;
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	padding-top: 95px;
+	margin-bottom: -20px;
+}
+
+.container{
+	margin:auto;
+}
+
+.image-container{
+	margin: auto;
+	padding-top: -20px;
+	max-height: 250px;
+	max-width: 350px;
+	height: 250px;
+	width: 350px;
+}
+
+.image-container img{
+	width: 100%;
+    height: auto;
+}
